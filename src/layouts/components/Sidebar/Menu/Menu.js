@@ -9,7 +9,7 @@ function Menu({children}) {
 }
 
 Menu.propTypes = {
-    children: PropTypes.node.isRequired //sd node vì nó là chứa nhiều kiểu dữ liệu và nó render được
+    children: PropTypes.node.isRequired //sd node vì nó chứa nhiều kiểu dữ liệu và nó render được
 }
 
 export default Menu; 
